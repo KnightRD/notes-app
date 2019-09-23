@@ -108,7 +108,7 @@ const updateNote = (id, updates) => {
 }
 
 // call loadNotes
-notes = loadNotes();
+loadNotes();
 
 // exports
 export { getNotes, createNote, removeNote, sortNotes, updateNote }
